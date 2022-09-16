@@ -1,0 +1,25 @@
+{
+  "name": "verify-memberstack-token",
+  "version": "1.0.0",
+  "description": "Verify memberstack token and return user decoded",
+  "main": "index.js",
+  "author": "Caravel",
+  "license": "MIT",
+  "scripts": {
+    "lint": "npx eslint ./",
+    "pretest": "npm run lint",
+    "test": "npx jest --coverage"
+  },
+  "engines": {
+    "node": ">=16.15.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "jest": "^29.0.3"
+  }
+}
