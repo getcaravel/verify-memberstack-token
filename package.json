@@ -1,6 +1,6 @@
 {
   "name": "verify-memberstack-token",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verify memberstack token and return user decoded",
   "main": "index.js",
   "author": "Caravel",
