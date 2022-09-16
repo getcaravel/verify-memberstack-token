@@ -5,6 +5,16 @@
   "main": "index.js",
   "author": "Caravel",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/getcaravel/verify-memberstack-token.git"
+  },
+  "keywords": [
+    "memberstack",
+    "token",
+    "verify",
+    "jwt"
+  ],
   "scripts": {
     "lint": "npx eslint ./",
     "pretest": "npm run lint",
@@ -21,5 +31,9 @@
     "eslint": "^8.23.1",
     "eslint-config-airbnb": "^19.0.4",
     "jest": "^29.0.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/getcaravel/verify-memberstack-token/issues"
+  },
+  "homepage": "https://github.com/getcaravel/verify-memberstack-token#readme"
 }
