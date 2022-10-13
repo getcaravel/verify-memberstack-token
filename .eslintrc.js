@@ -5,7 +5,7 @@ module.exports = {
   },
   extends: 'airbnb',
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 2022,
   },
   rules: {
     'no-console': 'off', // usefull and not dangerous for node app
